@@ -10,7 +10,7 @@ const About = () => {
             font-bold text-[34px] border-b-[2px] 
              border-[#e98b45]"
         >
-          ABOUT ME
+          ABOUT ME 
         </h1>
         <div className="flex">
           <div className="w-[50%]">
