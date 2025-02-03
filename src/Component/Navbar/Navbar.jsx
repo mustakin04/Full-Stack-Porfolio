@@ -9,7 +9,7 @@ const Navbar = () => {
   const [show,setShow]=useState(false)
   return (
     <div>
-      <div className="w-[full] bg-red-300 overflow-x-auto scrollbar-hidden ">
+      <div className="w-[full] bg-linear-65  from-purple-500 to-pink-500 overflow-x-auto scrollbar-hidden ">
         <Container className='flex py-[15px]'>
           <div className="flex gap-[20px] w-[50%]">
             <div className="flex items-center gap-[10px]">
