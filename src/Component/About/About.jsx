@@ -6,7 +6,7 @@ const About = () => {
     <div className="bg-[#20122a] py-[60px]">
       <Container>
         <h1
-          className="text-[#e98b45] inline-block text-center ml-[560px] font-dan 
+          className="text-[#e98b45] w-[170px] m-auto ml-[560px] font-dan 
             font-bold text-[34px] border-b-[2px] 
              border-[#e98b45]"
         >
@@ -53,7 +53,7 @@ const About = () => {
           </div>
           <div className="w-[50%] mt-[70px]">
             <div className="flex justify-end gap-[30px]">
-              <div className="bg-[#1f2022] py-[30px] px-[30px]  rounded ">
+              <div className="bg-[#1f2022] py-[30px] px-[30px]  rounded " data-aos="flip-right">
                 <h2 className="font-dan font-semibold text-[30px] text-[#e98b45] text-center ">
                   1 <span className="text-5xl">+</span>
                 </h2>
@@ -62,7 +62,7 @@ const About = () => {
                   Years Expreience
                 </p>
               </div>
-              <div className="bg-[#1f2022] py-[30px] px-[30px]  rounded">
+              <div className="bg-[#1f2022] py-[30px] px-[30px]  rounded" data-aos="flip-left">
                 <h2 className="font-dan font-semibold text-[30px] text-[#e98b45] text-center ">
                   10 <span className="text-5xl">+</span>
                 </h2>

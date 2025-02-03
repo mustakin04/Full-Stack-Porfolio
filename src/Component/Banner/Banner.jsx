@@ -27,8 +27,8 @@ const Banner = () => {
               Web-Developer
             </h2>
             <p className="font-poppins font-semibold text-[26px] text-[#FFFFFF] text-center pt-[6px] tracking-wide">
-              With <span className="text-yellow-300  ">1+years</span>
-              Self Learing Experience
+              With <span className="text-yellow-300  ">1+ Years </span>
+               Self Learing Experience
             </p>
           </div>
           <div
