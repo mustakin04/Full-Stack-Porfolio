@@ -11,7 +11,7 @@ const Live = () => {
           <span className="text-emerald-400 ">ed On</span>
         </h1>
         <div className="flex">
-          <div className="w-[600px] h-[450px] bg-blue-300  rounded ml-[400px]"data-aos="fade-down"></div>
+          <div className="w-[600px] h-[450px] bg-blue-300  rounded ml-[400px]"data-aos="fade-up"></div>
           <div className="ml-[10px] mt-[20px]">
             <p className="font-poppins font-semibold text-[24px] text-white">Chatting App</p>
             <div className="font-poppins font-medium text-[22px] text-white mt-[10px]">

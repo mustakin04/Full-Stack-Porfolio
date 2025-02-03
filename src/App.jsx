@@ -7,6 +7,7 @@ import FullStack from './Component/Full_Stack/FullStack'
 import Education from './Component/Education/Education'
 import Tools from './Component/Tools/Tools'
 import Live from './Component/Live/Live'
+import Contact from './Component/Contact/Contact'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <Education></Education>
       <Tools></Tools>
       <Live></Live>
+      <Contact></Contact>
     </>
   )
 }
