@@ -6,7 +6,7 @@ const About = () => {
     <div className="bg-[#20122a] py-[60px]">
       <Container>
         <h1
-          className="text-[#e98b45] w-[170px] m-auto ml-[560px] font-dan 
+          className="text-[#e98b45] w-[170px] m-auto  font-dan 
             font-bold text-[34px] border-b-[2px] 
              border-[#e98b45]"
         >
