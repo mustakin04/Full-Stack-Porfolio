@@ -9,9 +9,9 @@ const Navbar = () => {
   const [show,setShow]=useState(false)
   return (
     <div>
-      <div className="w-[full] bg-linear-65  from-purple-500 to-pink-500 overflow-x-auto scrollbar-hidden ">
-        <Container className='flex py-[15px]'>
-          <div className="flex gap-[20px] w-[50%]">
+      <div className="md:w-[full] bg-linear-65  from-purple-500 to-pink-500 ">
+        <Container className='md:flex py-[15px]'>
+          <div className="md:flex gap-[20px] md:w-[50%]">
             <div className="flex items-center gap-[10px]">
               <MdCall className="text-2xl " />
               <h3 className="font-poppins font-normal text-[18px]">
@@ -25,10 +25,11 @@ const Navbar = () => {
               </h3>
             </div>
           </div>
-          <div className="w-[50%] ">
-            <div className="relative flex justify-end">
+          <div className="md:w-[50%] ">
+            <div className="relative md:flex justify-end">
               {show&&
-              <ul className="absolute right-[50px] flex justify-center gap-[22px] font-poppins font-normal py-[6px] 
+              <ul className="absolute top-[30px] md:top-0  md:right-[50px] md:flex
+               justify-center gap-[22px] font-poppins font-normal py-[6px] 
               px-[20px] text-[18px] text-white bg-black rounded">
                 <li>Home</li>
                 <li>About</li>

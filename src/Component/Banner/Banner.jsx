@@ -13,7 +13,7 @@ const Banner = () => {
   return (
     <div>
       <div
-        className="relative z-[-111] w-full h-[800px] object-cover bg-center bg-no-repeat bg-cover"
+        className="relative z-[-111] py-[60px]   bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${banner})` }}
       >
         <Container>
@@ -31,7 +31,7 @@ const Banner = () => {
             </p>
           </div>
           <div
-            className="absolute bottom-0 right-[570px] bg-amber-500 w-[900px] 
+            className="absolute bottom-0 right-[50%] translate-x-[50%] bg-amber-500 w-[900px] 
              h-[500px] rounded-t-full flex justify-center"
           >
             <img src={kuyasha} alt="" className="" />
