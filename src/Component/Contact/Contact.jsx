@@ -18,24 +18,29 @@ const Contact = () => {
             <div className="">
                 <input type="text" name="" id="" 
                 placeholder="Enter Your Email"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] mt-[20px] outline-none"/>
+                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] mt-[20px] outline-none
+                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
             </div>
             <div className="mt-[20px]">
                 <input type="text" name="" id="" 
                 placeholder="Enter your Whatsapp Number"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px]  outline-none"/>
+                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px]  outline-none
+                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
             </div>
             <div className="mt-[20px]">
                 <input type="text" name="" id="" 
                 placeholder="Subject"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] outline-none"/>
+                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] outline-none
+                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
             </div>
             <div className="mt-[20px]">
                 <input type="text" name="" id="" 
                 placeholder="Message"
-                className="w-full h-[100px] py-[20px] px-[20px] bg-white rounded-[10px] outline-none"/>
+                className="w-full h-[100px] py-[20px] px-[20px] bg-white rounded-[10px] outline-none
+                font-poppins font-medium text-[22px] text-black mt-[10px]"/>
             </div>
-            <div  className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] text-center mt-[20px]">
+            <div  className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] text-center mt-[20px]
+            font-poppins font-medium text-[32px] text-white mt-[10px]">
                 SEND
             </div>
           </div>
