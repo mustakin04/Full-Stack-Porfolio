@@ -11,13 +11,13 @@ import { IoLogoFigma } from "react-icons/io5";
 
 const Banner = () => {
   return (
-    <div>
+    <div className="relative ">
       <div
-        className="relative z-[-111] py-[60px]   bg-center bg-no-repeat bg-cover"
+        className=" z-[-111] py-[60px]   bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${banner})` }}
       >
-        <Container>
-          <div>
+        <Container className="">
+          <div className="">
             <h1 className="font-poppins font-bold text-[56px] text-[#FFFFFF] text-center pt-[60px]">
               Hello! I am
               <span className="text-[#00c0ff]"> Mustakin Hassan</span>

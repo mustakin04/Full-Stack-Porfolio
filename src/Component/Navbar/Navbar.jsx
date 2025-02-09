@@ -8,10 +8,10 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 const Navbar = () => {
   const [show,setShow]=useState(false)
   return (
-    <div>
-      <div className="md:w-[full] bg-linear-65  from-purple-500 to-pink-500 ">
-        <Container className='md:flex py-[15px]'>
-          <div className="md:flex gap-[20px] md:w-[50%]">
+    <div className="">
+      <div className="absolute z-[999] md:w-[full] bg-linear-65  from-purple-500 to-pink-500 ">
+        <Container className=' md:flex py-[15px]'>
+          <div className=" md:flex gap-[20px] md:w-[50%]">
             <div className="flex items-center gap-[10px]">
               <MdCall className="text-2xl " />
               <h3 className="font-poppins font-normal text-[18px]">
