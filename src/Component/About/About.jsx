@@ -40,7 +40,7 @@ const About = () => {
                 front-end development. Keeping in mind scalability and clean
                 code that is maintainable and readable.
               </p>
-              <div className="bg-[#e98b45] inline-flex  rounded-sm mt-[30px]">
+              <div className="bg-[#e98b45] inline-flex  rounded-sm mt-[30px] ">
                 <button
                   className="font-poppins font-semibold text-black text-[24px] px-[20px] 
                 py-[14px]"

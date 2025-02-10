@@ -1,57 +1,46 @@
-import React from "react";
-import Container from "../Container/Container";
-import email from "../../assets/email.png";
+import React from 'react'
+import Container from '../Container/Container'
 
 const Contact = () => {
   return (
-    <div className="bg-linear-60 from-[#409282] to-[#263463] py-[50px]">
+    <div className='bg-[#212228] py-[60px]'>
       <Container>
-        <h1
-          className="text-[#e98b45] w-[170px] m-auto font-dan 
-            font-bold text-[44px] border-b-[2px] 
-             border-[#e98b45]"
+      <h1
+          className="text-[#e98b45]  text-center  font-dan 
+            font-bold text-[50px]"
         >
-          CONTACT
+          CONTACT <span className="text-white ml-[5px]"> ME </span>
         </h1>
-        <div className="flex mt-[50px]">
-          <div className="w-[70%] m-[30px]">
-            <div className="">
-                <input type="text" name="" id="" 
-                placeholder="Enter Your Email"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] mt-[20px] outline-none
-                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
-            </div>
-            <div className="mt-[20px]">
-                <input type="text" name="" id="" 
-                placeholder="Enter your Whatsapp Number"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px]  outline-none
-                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
-            </div>
-            <div className="mt-[20px]">
-                <input type="text" name="" id="" 
-                placeholder="Subject"
-                className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] outline-none
-                font-poppins font-medium text-[22px] text-white mt-[10px]"/>
-            </div>
-            <div className="mt-[20px]">
-                <input type="text" name="" id="" 
-                placeholder="Message"
-                className="w-full h-[100px] py-[20px] px-[20px] bg-white rounded-[10px] outline-none
-                font-poppins font-medium text-[22px] text-black mt-[10px]"/>
-            </div>
-            <div  className="w-full py-[20px] px-[20px] bg-[#d4254e] rounded-[10px] text-center mt-[20px]
-            font-poppins font-medium text-[32px] text-white mt-[10px]">
-                SEND
-            </div>
-          </div>
-          <div className="w-[30%]">
-            <img src={email} alt="" data-aos="fade-up"
-     data-aos-anchor-placement="top-bottom" />
+        <p className='font-poppins font-normal text-white text-[22px] mt-[10px] text-center'>
+          Have a question or want to work together?I'd really have to hear from your feedback</p>
+        <div className="relative w-[600px] h-[2px] m-auto bg-white mt-[50px]">
+          <div className="absolute top-[-30px] left-[45%]  flex justify-center items-center w-[60px] h-[60px] rounded-full bg-gray-600">
+            <div className="w-[18px] h-[18px] rounded-full bg-[#e98b45] m-[10px] border-2 border-white"></div>
           </div>
         </div>
+        <div className='w-[700px] h-[550px] border-2 m-auto mt-[60px] bg-[#0a192f] p-[30px] border-white'>
+          <h3 className='font-poppins font-semibold text-white text-[44px] mt-[10px] text-center'>
+            GET   IN   TOUCH</h3>
+          <input type="text"
+          className='w-full py-[12px] px-[12px] text-gray-700 bg-white rounded-md
+          font-poppins font-medium text-[22px] outline-blue-600 mt-[30px] ' 
+          placeholder='Your Name'/>
+          <input type="email"
+          className='w-full py-[12px] px-[12px] text-gray-700 bg-white rounded-md
+          font-poppins font-medium text-[22px] outline-blue-600 mt-[20px] ' 
+          placeholder='Your Email'/>
+          <input type="message"
+          className='w-full h-[100px] text-start px-[12px] text-gray-700 bg-white rounded-md
+          font-poppins font-medium text-[22px] outline-blue-600 mt-[32px] ' 
+          placeholder='Message'/>
+          <button  className='w-full py-[12px] px-[12px] text-gray-700 bg-emerald-400 rounded-md
+          font-poppins font-medium text-[22px] outline-blue-600 mt-[30px] '>Send</button>
+        </div>
+        
+         
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact
