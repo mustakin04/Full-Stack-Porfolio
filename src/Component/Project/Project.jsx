@@ -9,7 +9,7 @@ const Project = () => {
       <Container>
         <h1
           className="text-[#e98b45]  text-center  font-dan 
-            font-bold text-[50px]"
+            font-bold text-[50px] "
         >
           MY <span className="text-white ml-[5px]"> PROJECTS </span>
         </h1>
@@ -91,8 +91,8 @@ const Project = () => {
                 </button>
               </div>
               <div className="flex justify-between  font-poppins font-semibold text-white text-[24px] mt-[180px]">
-                <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</button>
-                <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</button>
+                <a href="https://lighthearted-lokum-3ed1d9.netlify.app/" className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</a>
+                <a href="https://github.com/mustakin04/Petroil-Website" className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</a>
               </div>
             </div>
           </div>

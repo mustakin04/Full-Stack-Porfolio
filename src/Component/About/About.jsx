@@ -1,14 +1,16 @@
 import React from "react";
 import Container from "../Container/Container";
 import image from "../../assets/Mustakinhjpg-removebg-preview.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
+    <>
     <div className="bg-[#212228] py-[60px]">
       <Container>
         <h1
           className="text-[#e98b45]  text-center  font-dan 
-            font-bold text-[50px]"
+            font-bold text-[50px] "
         >
           ABOUT <span className="text-white ml-[5px]"> ME </span>
         </h1>
@@ -45,7 +47,7 @@ const About = () => {
                   className="font-poppins font-semibold text-black text-[24px] px-[20px] 
                 py-[14px]"
                 >
-                  Contact Me
+                 <Link to="/contact"> Contact Me</Link>
                 </button>
               </div>
             </div>
@@ -154,6 +156,7 @@ const About = () => {
         </div>
       </Container>
     </div>
+    </>
   );
 };
 

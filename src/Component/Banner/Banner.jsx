@@ -8,8 +8,26 @@ import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { IoLogoFigma } from "react-icons/io5";
+import  { useEffect, useRef } from "react";
+import Typewriter from "typewriter-effect/dist/core";
 
 const Banner = () => {
+  const typewriterRef = useRef(null);
+  useEffect(() => {
+    const typewriter = new Typewriter(typewriterRef.current, {
+      loop: true,
+      delay: 75,
+    });
+
+    typewriter
+      .pauseFor(2500)
+      .typeString("Frontend-Developer")
+      .pauseFor(300)
+      .deleteChars(10)
+      .pauseFor(1000)
+      .start();
+  }, []);
+
   return (
     <div className="relative ">
       <div
@@ -22,8 +40,9 @@ const Banner = () => {
               Hello! I am
               <span className="text-[#00c0ff]"> Mustakin Hassan</span>
             </h1>
-            <h2 className="font-poppins font-semibold text-[36px] text-[#FFFFFF] text-center pt-[10px]">
-              Web-Developer
+            <h2 ref={typewriterRef}
+            className="font-poppins font-semibold text-[36px] text-[#FFFFFF] text-center pt-[10px]">
+              
             </h2>
             <p className="font-poppins font-semibold text-[26px] text-[#FFFFFF] text-center pt-[6px] tracking-wide">
               With <span className="text-yellow-300  ">1+ Years </span>
