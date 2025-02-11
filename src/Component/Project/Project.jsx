@@ -19,7 +19,9 @@ const Project = () => {
           </div>
         </div>
         <div className="flex justify-between mt-[100px]">
-          <div className="w-[31%] border-1 border-white">
+          <div className="w-[31%] border-1 border-white "
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div>
               <img src={chat} alt="" className="object-cover" />
             </div>
@@ -59,7 +61,9 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="w-[31%] border-1 border-white">
+          <div className="w-[31%] border-1 border-white"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div>
               <img src={petrol} alt="" className="object-cover" />
             </div>
@@ -96,7 +100,9 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="w-[31%] border-1 border-white">
+          <div className="w-[31%] border-1 border-white"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom">
             <div>
               <img src={petrol} alt="" className="object-cover" />
             </div>

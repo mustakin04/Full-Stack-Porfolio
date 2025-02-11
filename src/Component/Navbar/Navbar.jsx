@@ -41,7 +41,7 @@ const Navbar = () => {
                  <Link to="/contact"> Contact</Link></li>
               </ul>
              <div className="border-2 border-[#e98b45]">
-              <a href=""
+              <a href="https://drive.google.com/file/d/16ogAAYYUqG1-fGu_QPohSxGfUlNvlWpy/view?usp=sharing"
               className="font-poppins font-semibold py-[8px] 
               px-[20px] text-[24px] text-white rounded ">Resume</a>
              </div>

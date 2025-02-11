@@ -16,14 +16,15 @@ const Contact = () => {
       })
       .then(
         () => {
-
+          form.current.reset();
+          toast.success("Email sent successfully!")
         },
         (error) => {
           console.log('FAILED...', error.text);
         },
       );
   };
-  const notify = () => toast("Wow so easy!");
+ 
 
   return (
     <div className='bg-[#212228] py-[60px]'>
@@ -58,7 +59,7 @@ const Contact = () => {
           className='w-full h-[100px] text-start px-[12px] text-gray-700 bg-white rounded-md
           font-poppins font-medium text-[22px] outline-blue-600 mt-[32px] ' 
           placeholder='Message'/>
-          <button  onClick={notify}
+          <button 
            value="Send" type='submit'
            className='w-full py-[12px] px-[12px] text-gray-700 bg-emerald-400 rounded-md
           font-poppins font-medium text-[22px] outline-blue-600 mt-[30px] '>Send</button>

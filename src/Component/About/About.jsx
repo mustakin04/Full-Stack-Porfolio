@@ -2,8 +2,18 @@ import React from "react";
 import Container from "../Container/Container";
 import image from "../../assets/Mustakinhjpg-removebg-preview.png";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const About = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1200,
+      once: false,
+      easing: "ease-in-out", // Distance to trigger animation
+    });
+  }, []);
   return (
     <>
     <div className="bg-[#212228] py-[60px]">
@@ -20,7 +30,7 @@ const About = () => {
           </div>
         </div>
         <div className="flex gap-[50px] mt-[120px]">
-          <div className="w-[50%]">
+          <div className="w-[50%]" data-aos="fade-left">
             <div className="w-[400px] h-[400px] bg-amber-600 rounded-[100%] border-4 border-white overflow-hidden">
               <img
                 src={image}
@@ -52,7 +62,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] ">
+          <div className="w-[50%] " data-aos="fade-right">
             <h2 className="font-poppins font-semibold  text-white text-[40px] text-center mb-[50px]">
               My Skills
             </h2>
