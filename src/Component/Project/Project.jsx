@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 import chat from "../../assets/Screenshot (3).png";
 import petrol from "../../assets/Screenshot (4).png";
+import innovate from "../../assets/Screenshot (5).png"
 
 const Project = () => {
   return (
@@ -104,36 +105,31 @@ const Project = () => {
           data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">
             <div>
-              <img src={petrol} alt="" className="object-cover" />
+              <img src={innovate} alt="" className="object-cover" />
             </div>
             <div className="m-[20px]">
               <h3 className="font-semibold font-poppins text-white text-[26px] mt-[30px] ">
-                Petroil
+              Innovate Your Solution
               </h3>
               <p className="font-normal font-poppins text-white text-[22px] mt-[20px]">
-                Petroil appliction is frontend  part.
+              Innovate Your Solution appliction is frontend  part.
               </p>
               <ul className="font-normal font-poppins text-white text-[22px] list-inside list-disc">
                 <li>It's fully Responsive Website</li>
               </ul>
               <div className="font-semibold text-black text-[22px]  mt-[30px]">
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  React.js
+                  HTML
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  Tailwincss
-                </button>
-                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  React Router
-                </button>
-                < button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  Netify
+                  Bootstrap
                 </button>
                 < button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
                   GitHub
                 </button>
               </div>
-              <div className="flex justify-between  font-poppins font-semibold text-white text-[24px] mt-[180px]">
+              <div className="flex justify-between  font-poppins font-semibold text-white text-[24px]
+               mt-[210px]">
                 <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</button>
                 <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</button>
               </div>
