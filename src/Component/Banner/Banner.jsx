@@ -29,7 +29,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="relative ">
+    <div className="relative">
       <div
         className=" z-[-111] py-[60px]   bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${banner})` }}
