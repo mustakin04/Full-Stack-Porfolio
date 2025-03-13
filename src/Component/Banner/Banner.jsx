@@ -21,7 +21,7 @@ const Banner = () => {
 
     typewriter
       .pauseFor(2500)
-      .typeString("Frontend-Developer")
+      .typeString("Full-Stack Web Developer")
       .pauseFor(300)
       .deleteChars(10)
       .pauseFor(1000)

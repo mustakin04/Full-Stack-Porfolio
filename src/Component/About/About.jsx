@@ -45,11 +45,11 @@ const About = () => {
               <p className="font-normal text-[22px] text-justify">
                 I am a highly passionate, enthusiastic, hardworking and
                 dedicated learner. Self-motivated IT professional with deep
-                knowledge and proficiency in JavaScript, HTML, CSS, and mobile
+                knowledge and proficiency in JavaScript, React.js, Express.js, MongoDB, MySQL, Next.js and mobile
                 responsive website development, as well as highly potent skills
                 and ability in encoding virus-free and efficient code. I have a
                 strong passion for the creativity and discipline that goes into
-                front-end development. Keeping in mind scalability and clean
+                full-stack development. Keeping in mind scalability and clean
                 code that is maintainable and readable.
               </p>
               <div className="bg-[#e98b45] inline-flex  rounded-sm mt-[30px] ">
@@ -68,7 +68,7 @@ const About = () => {
             </h2>
             <div>
               <h3 className="font-poppins font-semibold text-[30px] text-white mb-[30px]">
-                Comfortabe
+              Frontend
               </h3>
               <div className="font-semibold text-black text-[25px] ">
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px] mr-[12px] mb-[12px]">
@@ -98,6 +98,9 @@ const About = () => {
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]">
                   daisyUI
                 </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]">
+                  Redux
+                </button>
               </div>
             </div>
             <div className="mt-[50px]">
@@ -109,19 +112,19 @@ const About = () => {
                   Node.js
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
-                  Redux
+                Express.js
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
-                  Java
+                MongoDB
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
-                  Data Structure
+                  Mongoose
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
                   Algorithm
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
-                  OOP
+                Data Structure
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
                   Java
@@ -159,6 +162,9 @@ const About = () => {
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
                   Chrome Dev Tool
+                </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded-[50px]  mr-[12px]  mb-[12px]">
+                  Postman
                 </button>
               </div>
             </div>
