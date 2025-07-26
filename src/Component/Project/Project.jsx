@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../Container/Container";
 import chat from "../../assets/Screenshot (3).png";
 import petrol from "../../assets/Screenshot (4).png";
-import innovate from "../../assets/Screenshot (5).png"
+import innovate from "../../assets/Screenshot (12).png"
 
 const Project = () => {
   return (
@@ -56,9 +56,12 @@ const Project = () => {
                   React Router
                 </button>
               </div>
-              <div className="flex justify-between font-poppins font-semibold text-white text-[24px] mt-[50px]">
-                <a href="https://profound-faun-d97413.netlify.app/" className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</a>
-                <a href="https://github.com/mustakin04/Chatting-application" className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</a>
+              <div className="flex justify-between font-poppins font-semibold text-white text-[24px]
+               mt-[160px]">
+                <a href="https://profound-faun-d97413.netlify.app/" className="py-[10px] px-[18px] 
+                border-2 border-[#e98b45]">Website</a>
+                <a href="https://github.com/mustakin04/Chatting-application" className="py-[10px] 
+                px-[18px] border-2 border-[#e98b45]">GitHub</a>
               </div>
             </div>
           </div>
@@ -95,9 +98,12 @@ const Project = () => {
                   GitHub
                 </button>
               </div>
-              <div className="flex justify-between  font-poppins font-semibold text-white text-[24px] mt-[180px]">
-                <a href="https://lighthearted-lokum-3ed1d9.netlify.app/" className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</a>
-                <a href="https://github.com/mustakin04/Petroil-Website" className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</a>
+              <div className="flex justify-between  font-poppins font-semibold text-white text-[24px] 
+              mt-[280px]">
+                <a href="https://lighthearted-lokum-3ed1d9.netlify.app/" className="py-[10px] px-[18px] 
+                border-2 border-[#e98b45]">Website</a>
+                <a href="https://github.com/mustakin04/Petroil-Website" className="py-[10px] px-[18px] border-2
+                 border-[#e98b45]">GitHub</a>
               </div>
             </div>
           </div>
@@ -109,27 +115,47 @@ const Project = () => {
             </div>
             <div className="m-[20px]">
               <h3 className="font-semibold font-poppins text-white text-[26px] mt-[30px] ">
-              Innovate Your Solution
+              E-Commerce 
               </h3>
               <p className="font-normal font-poppins text-white text-[22px] mt-[20px]">
-              Innovate Your Solution appliction is frontend  part.
+              Full-Stack E-Commerce Application
               </p>
               <ul className="font-normal font-poppins text-white text-[22px] list-inside list-disc">
-                <li>It's fully Responsive Website</li>
+                <li>React frontend with responsive design</li>
+                <li>Node.js/Express backend with session-based authentication</li>
+                 <li>Admin dashboard for product & order management</li>
               </ul>
               <div className="font-semibold text-black text-[22px]  mt-[30px]">
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  HTML
+                  React.js 
                 </button>
                 <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  Bootstrap
+                  React Router
                 </button>
                 < button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
-                  GitHub
+                  Tailwind CSS
+                </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+                  Axios
+                </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+                 Node.js
+                </button>
+                < button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+                Express.js
+                </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+                 MongoDB 
+                </button>
+                <button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+               express-session
+                </button>
+                < button className="bg-[#e98b45] py-[12px] px-[12px] rounded  mr-[10px]  mb-[8px]">
+                  SSLCommerz
                 </button>
               </div>
               <div className="flex justify-between  font-poppins font-semibold text-white text-[24px]
-               mt-[210px]">
+               ">
                 <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">Website</button>
                 <button className="py-[10px] px-[18px] border-2 border-[#e98b45]">GitHub</button>
               </div>
