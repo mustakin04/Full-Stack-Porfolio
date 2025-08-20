@@ -156,7 +156,7 @@ const Project = () => {
               </div>
               <div className="flex justify-between  font-poppins font-semibold text-white text-[24px]
                mt-[10px]">
-                 <a href="https://cosmic-gnome-1ec52b.netlify.app/" className="py-[10px] px-[18px] 
+                 <a href="https://gleeful-maamoul-dc75e4.netlify.app/" className="py-[10px] px-[18px] 
                 border-2 border-[#e98b45]">Website</a>
                 <a href="https://github.com/mustakin04/Full-Ecommerce" className="py-[10px] 
                 px-[18px] border-2 border-[#e98b45]">GitHub</a>
