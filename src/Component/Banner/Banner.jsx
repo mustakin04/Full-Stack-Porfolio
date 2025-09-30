@@ -6,8 +6,9 @@ import { SiTailwindcss } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
-import { SiFirebase } from "react-icons/si";
-import { IoLogoFigma } from "react-icons/io5";
+import { SiExpress } from "react-icons/si";
+import { SiMongodb } from "react-icons/si";
+
 import  { useEffect, useRef } from "react";
 import Typewriter from "typewriter-effect/dist/core";
 
@@ -94,18 +95,18 @@ const Banner = () => {
               className="absolute bottom-[20px] right-[10px] flex items-center gap-[10px]  bg-white py-[20px] 
               px-[20px] rounded-[25px]"
             >
-              <SiFirebase className="text-4xl text-[#d62b00]" />
+              <SiExpress className="text-4xl text-[#d62b00]" />
               <p className="font-poppins font-semibold text-[#283938] text-[24px]">
-                Firebase
+                Express.js
               </p>
             </div>
             <div
               className="absolute bottom-[20px] left-[10px] flex items-center gap-[10px]  bg-white py-[20px] 
               px-[20px] rounded-[25px]"
             >
-              <IoLogoFigma className="text-4xl text-[#d600ab]" />
+              <SiMongodb className="text-4xl text-[#d600ab]" />
               <p className="font-poppins font-semibold text-[#283938] text-[24px]">
-                Figma
+               MongoDB
               </p>
             </div>
           </div>
